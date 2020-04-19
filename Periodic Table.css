@@ -1,0 +1,80 @@
+
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+        }
+        .Periodic-table{
+            min-height: 100vh;
+            background: #333;
+        }
+        .table-container{
+            width: 100%;
+            display: grid;
+            grid-auto-flow: dense;
+            grid-gap: 0px;
+        }
+        .a1{
+            grid-template:  "1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr" 11vh;
+                           
+        }
+        .a2{
+            grid-template:  "1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr" 11vh
+                            "1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr" 11vh;
+        }
+        .a3{
+            grid-template:  "1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr" 11vh
+                            "1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr" 11vh
+                            "1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr" 11vh
+                            "1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr" 11vh;
+        }
+        .a4{
+            grid-template:  "1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr" 11vh
+                            "1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr" 11vh; 
+        }
+        .element{
+            margin: 4px;
+            position: relative;
+            background: #ccc;
+            transition: .4s linear;
+            border-radius: 12px;
+        }
+        .DN{background: #333;}
+        .DN > h2,.DN > p{color: #FFF;}
+
+        p,h2,h3,h4,h5{
+            position: absolute;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            color: #111;
+        }
+        h2{ top: 38%; font-size: 20px;}
+        p{ top: 80%; font-size: .6em;}
+        h4{top: 16%; left: 20%; font-size: .6em;}
+        h3{top: 60%; left: 20%; font-size: .6em;}
+        h5{top: 16%; left: 86%; font-size: .4em;}
+        
+        .D > h2{font-size: .7em;}
+        .D > p{font-size: .7em; top: 60%;}
+        .D1{background: darksalmon;}
+        .D2{background: salmon;}
+        .SB1{background: orange;}
+        .SB2{background: darkorange;}
+        .PB1{background: coral;}
+        .PB2{background: lightcoral;}
+        .PB3{background: peru;}
+        .PB4{background: plum;}
+        .PB5{background: navajowhite;}
+        .PB6{background: palevioletred;}
+        .DB1{background: skyblue;}
+        .DB2{background: cornflowerblue;}
+        .DB4{background: dodgerblue;}
+        .DB3{background: Deepskyblue;}
+        .FB1{background: darksalmon;}
+        .FB2{background: salmon;}
+        .E2{top: 20%;}
+        .E3{top: 24%;}
+        .E4{top: 28%;}
+        .E5{top: 32%;}
+        .E6{top: 36%;}
+        .E7{top: 40%;}
